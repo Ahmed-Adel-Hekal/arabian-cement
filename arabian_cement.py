@@ -7,8 +7,8 @@ def endpoint_invoke(data=[]):
 
     # Create a low-level client representing Amazon SageMaker Runtime
     sagemaker_runtime = boto3.client("sagemaker-runtime",
-             aws_access_key_id ='AKIAQHAPTAT6HL4I7PE3',
-             aws_secret_access_key = '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',
+             aws_access_key_id ='****************',
+             aws_secret_access_key = '***************',
              region_name = 'eu-west-1')
 
     # The name of the endpoint. The name must be unique within an AWS Region in your AWS account.
